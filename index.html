@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Page</title>
+
+    <style>
+        body {
+            text-align: center;
+            min-height: 100vh;
+            background-image: url("cloud.avif"); 
+            background-size: cover;
+            background-position: center;
+            padding-top: 40px; /* Add padding at the top to center content vertically */
+        }
+
+        .wrapper{
+            width: 420px;
+            background-color: rgba(100, 125, 194, 0.156);
+            border-radius: 10px;
+            padding: 30px 40px;
+            margin: auto; /* Center the wrapper horizontally */
+        }
+
+        h1{
+            color: rgb(172, 203, 224);
+        }
+
+        h2{
+            color: aliceblue;
+        }
+
+        p{
+            color: grey;
+        }
+
+        #changeButton {
+            background-color: rgb(87, 110, 175);
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor:pointer;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Good day! You have encountred a happy page.</h1>
+        <h2>Happy Button</h2>
+        <p id="paragraph">Click on the button once and be ready to receive some positivity</p>
+        <button id="changeButton">Click</button>
+    </div>
+</body>
+</html>
